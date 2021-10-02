@@ -1,0 +1,111 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+li {
+  margin: 0;
+  padding: 0;
+}
+
+/*======================================================
+                Common css end
+======================================================*/
+
+.small_slider {
+  display: flex;
+  flex-wrap: wrap;
+  width: 30%;
+  margin: 0 auto;
+}
+
+.small_slider .slider_img {
+  width: 200px;
+  height: 200px;
+  margin: 15px;
+}
+
+.big_slider {
+  width: 50%;
+  margin: 0 auto;
+
+}
+
+.big_slider .slider_img_up {
+  margin: 0 15px;
+}
+
+.big_slider .draggable {
+  padding-left: 0 !important;
+  transition: .4s;
+
+}
+
+.big_slider .pad {
+  padding-right: 0 !important;
+  padding-left: 50px !important;
+}
+
+
+
+
+
+/* 
+.slick-dots li:first-child button {
+  background: url(../images/1.jpg)no-repeat center/cover;
+}
+
+.slick-dots li:nth-child(2) button {
+  background: url(../images/2.jpg)no-repeat center/cover;
+}
+
+.slick-dots li:nth-child(3) button {
+  background: url(../images/3.jpg)no-repeat center/cover;
+}
+
+.slick-dots li:nth-child(4) button {
+  background: url(../images/4.jpg)no-repeat center/cover;
+}
+
+.slick-dots li button {
+  font-size: 0;
+  width: 100px;
+  height: 100px;
+  border: 0;
+  margin: 20px;
+}
+
+.slick-dots {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+} */
+
+
+
+/* .slick-dots li{
+  float: left;
+} */
